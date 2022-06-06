@@ -1,0 +1,193 @@
+let prefix = "http://localhost:3001/images/";
+
+module.exports = {
+  radios: [
+    {
+      img: `${prefix}logo_ondacero.png`,
+      to: "/radiopage/ondacero",
+      radio: "Onda Cero",
+      id: 1,
+    },
+    {
+      img: `${prefix}logo_pana.png`,
+      to: "/radiopage/panamericana",
+      radio: "Panamericana",
+      id: 2,
+    },
+    {
+      img: `${prefix}logo_lanube.png`,
+      to: "/radiopage/lanube",
+      radio: "La nube",
+      id: 3,
+    },
+    {
+      img: `${prefix}logo_lavaca.png`,
+      to: "/radiopage/lavaca",
+      radio: "la vaca",
+      id: 4,
+    },
+    {
+      img: `${prefix}logo_radiocomas.png`,
+      to: "/radiopage/radiocomas",
+      radio: "Radio Comas",
+      id: 5,
+    },
+    {
+      img: `${prefix}logo_vivafm.jpg`,
+      to: "/radiopage/vivafm",
+      radio: "Viva FM",
+      id: 6,
+    },
+    {
+      img: `${prefix}logo_cumbiamix.png`,
+      to: "/radiopage/cumbiamix",
+      radio: "Cumbia mix",
+      id: 7,
+    },
+    {
+      img: `${prefix}logo_oncesesenta.png`,
+      to: "/radiopage/oncesesenta",
+      radio: "1160",
+      id: 8,
+    },
+    {
+      img: `${prefix}logo_pana.png`,
+      to: "/radiopage/panamericana",
+      radio: "Panamericana",
+      id: 9,
+    },
+    {
+      img: `${prefix}logo_lanube.png`,
+      to: "/radiopage/lanube",
+      radio: "La nube",
+      id: 10,
+    },
+    {
+      img: `${prefix}logo_lavaca.png`,
+      to: "/radiopage/lavaca",
+      radio: "la vaca",
+      id: 11,
+    },
+    {
+      img: `${prefix}logo_radiocomas.png`,
+      to: "/radiopage/radiocomas",
+      radio: "Radio Comas",
+      id: 12,
+    },
+    {
+      img: `${prefix}logo_vivafm.jpg`,
+      to: "/radiopage/vivafm",
+      radio: "Viva FM",
+      id: 13,
+    },
+    {
+      img: `${prefix}logo_cumbiamix.png`,
+      to: "/radiopage/cumbiamix",
+      radio: "Cumbia mix",
+      id: 14,
+    },
+    {
+      img: `${prefix}logo_ondacero.png`,
+      to: "/radiopage/ondacero",
+      radio: "Onda Cero",
+      id: 15,
+    },
+    {
+      img: `${prefix}logo_pana.png`,
+      to: "/radiopage/panamericana",
+      radio: "Panamericana",
+      id: 16,
+    },
+    {
+      img: `${prefix}logo_lanube.png`,
+      to: "/radiopage/lanube",
+      radio: "La nube",
+      id: 17,
+    },
+    {
+      img: `${prefix}logo_lavaca.png`,
+      to: "/radiopage/lavaca",
+      radio: "la vaca",
+      id: 18,
+    },
+    {
+      img: `${prefix}logo_radiocomas.png`,
+      to: "/radiopage/radiocomas",
+      radio: "Radio Comas",
+      id: 19,
+    },
+    {
+      img: `${prefix}logo_vivafm.jpg`,
+      to: "/radiopage/vivafm",
+      radio: "Viva FM",
+      id: 20,
+    },
+    {
+      img: `${prefix}logo_cumbiamix.png`,
+      to: "/radiopage/cumbiamix",
+      radio: "Cumbia mix",
+      id: 21,
+    },
+  ],
+  home: {
+    page: "Home",
+    backgroundImage: "",
+    backgroundColor:
+      "radial-gradient(circle, rgba(5,89,0,0.75) 0%, rgba(0,0,0,1) 57%)",
+    logo: "http://localhost:3001/images/logoEPA.png",
+  },
+  lanube: {
+    page: "La nube",
+    backgroundImage: "http://localhost:3001/images/fondo_lanube.jpg",
+    logo: "http://localhost:3001/images/logo_lanube.png",
+    backgroundColor: "",
+  },
+  cumbiamix: {
+    page: "Cumbia Mix",
+    backgroundImage: "http://localhost:3001/images/fondo_cumbiamix.png",
+    logo: "http://localhost:3001/images/logo_cumbiamix.png",
+    backgroundColor: "",
+  },
+  ondacero: {
+    page: "Onda Cero",
+    backgroundImage: "",
+    backgroundColor: "radial-gradient(#FEE248 30%, #FFA01C 100%)",
+    logo: "http://localhost:3001/images/logo_ondacero.png",
+  },
+  panamericana: {
+    page: "Panamericana",
+    backgroundImage: "http://localhost:3001/images/fondo_panamericana.png",
+    logo: "http://localhost:3001/images/logo_pana.png",
+    backgroundColor: "",
+  },
+  oncesesenta: {
+    page: "1160",
+    backgroundImage: "http://localhost:3001/images/fondo_oncesesenta.png",
+    logo: "http://localhost:3001/images/artistas_oncesesenta.png",
+    backgroundColor: "",
+  },
+  lavaca: {
+    page: "Radio la vaca",
+    backgroundImage: "",
+    logo: "http://localhost:3001/images/logo_lavaca.png",
+    backgroundColor: "linear-gradient(to left, #000 0%, #000 100%)",
+  },
+  radiocomas: {
+    page: "Radio Comas",
+    backgroundImage: "",
+    logo: "http://localhost:3001/images/logo_radiocomas.png",
+    backgroundColor: "linear-gradient(to left, #000 0%, #000 100%)",
+  },
+  vivafm: {
+    page: "Viva FM",
+    backgroundImage: "",
+    logo: "http://localhost:3001/images/logo_vivafm.jpg",
+    backgroundColor: "linear-gradient(to left, #000 0%, #000 100%)",
+  },
+  exitosa: {
+    page: "Radio Exitosa",
+    backgroundImage: "",
+    logo: "http://localhost:3001/images/logo_exitosa.png",
+    backgroundColor: "linear-gradient(to left, #000 0%, #000 100%)",
+  },
+};
